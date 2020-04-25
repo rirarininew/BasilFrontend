@@ -1,0 +1,52 @@
+1587824325a:1:{s:12:"about-us.htm";a:6:{s:8:"fileName";s:12:"about-us.htm";s:7:"content";s:1574:"==
+<section id="about" class="about-us bg-gray">
+    <div class="container section mx-auto">
+        <div class="about-us__content">
+            <h2 class="section__title" data-sal="fade" data-sal-easing="ease-in-cubic">{{ this.theme.about_title }}</h2>
+            <p data-sal="slide-up" data-sal-easing="ease-in-cubic" data-sal-delay="100">{{ this.theme.about_description }}</p>
+            <ul class="mt-10 md:ml-8">
+                {% for about_item in this.theme.about_items %}
+                    <li class="mb-6">
+                        <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
+                            <i class="item__icon material-icons text-primary">{{ about_item.icon }}</i>
+                            <div class="item__content">
+                                <a href="http://localhost/install-master/restaurant" target="_blank">
+                                <h3 class="item__title">{{ about_item.title }}</h3>
+                                </a>
+                                <p class="item__text md:w-3/4">{{ about_item.description }}</p>
+                            </div>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="about-us__image">
+            <img src="{{ this.theme.about_image ? this.theme.about_image|media : 'assets/dist/images/about.svg'|theme }}" class="mx-auto" alt="About Us Image" data-sal="slide-up" data-sal-delay="400" data-sal-duration="500">
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1587488659;s:6:"markup";s:1570:"<section id="about" class="about-us bg-gray">
+    <div class="container section mx-auto">
+        <div class="about-us__content">
+            <h2 class="section__title" data-sal="fade" data-sal-easing="ease-in-cubic">{{ this.theme.about_title }}</h2>
+            <p data-sal="slide-up" data-sal-easing="ease-in-cubic" data-sal-delay="100">{{ this.theme.about_description }}</p>
+            <ul class="mt-10 md:ml-8">
+                {% for about_item in this.theme.about_items %}
+                    <li class="mb-6">
+                        <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
+                            <i class="item__icon material-icons text-primary">{{ about_item.icon }}</i>
+                            <div class="item__content">
+                                <a href="http://localhost/install-master/restaurant" target="_blank">
+                                <h3 class="item__title">{{ about_item.title }}</h3>
+                                </a>
+                                <p class="item__text md:w-3/4">{{ about_item.description }}</p>
+                            </div>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="about-us__image">
+            <img src="{{ this.theme.about_image ? this.theme.about_image|media : 'assets/dist/images/about.svg'|theme }}" class="mx-auto" alt="About Us Image" data-sal="slide-up" data-sal-delay="400" data-sal-duration="500">
+        </div>
+    </div>
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

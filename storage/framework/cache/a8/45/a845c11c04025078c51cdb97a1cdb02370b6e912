@@ -1,0 +1,24 @@
+1587823125a:1:{s:10:"retail.htm";a:6:{s:8:"fileName";s:10:"retail.htm";s:7:"content";s:754:"==
+<section id="retail" class="section mx-auto">
+     <div class="container mx-auto bg-ik">
+       <br>
+       <h1 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic">Managemen <span class="text-ungu"> Retail </span> semakin mudah</h1>
+       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic">dengan Basil F&B</h2>
+       <p class="hero__tagline-subtitle text-center" data-sal="fade" data-sal-delay="100">{{ this.theme.hero_subtitle }}<br><br>
+       <a class="btn btn--primary mt-8 align-center" data-sal="fade" data-sal-delay="300" href="#contact">{{ this.theme.hero_button_text }}</a>
+       <br><br><br><br><br>
+       </p>
+    </div>
+        
+</section>";s:5:"mtime";i:1587665364;s:6:"markup";s:750:"<section id="retail" class="section mx-auto">
+     <div class="container mx-auto bg-ik">
+       <br>
+       <h1 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic">Managemen <span class="text-ungu"> Retail </span> semakin mudah</h1>
+       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic">dengan Basil F&B</h2>
+       <p class="hero__tagline-subtitle text-center" data-sal="fade" data-sal-delay="100">{{ this.theme.hero_subtitle }}<br><br>
+       <a class="btn btn--primary mt-8 align-center" data-sal="fade" data-sal-delay="300" href="#contact">{{ this.theme.hero_button_text }}</a>
+       <br><br><br><br><br>
+       </p>
+    </div>
+        
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

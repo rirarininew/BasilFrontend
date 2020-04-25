@@ -1,0 +1,45 @@
+==
+<section id="services" class="services container section mx-auto">
+    <div>
+        <h2 class="section__title text-center mb-16" data-sal="fade" data-sal-easing="ease-in-cubic">{{ this.theme.service_title }}</h2>
+        <div class="services__items">
+            
+                {% set index = loop.index %}
+                {% set position = index % 2 ? 'service--left': 'service--right'  %}
+                {% set default_image = 'assets/dist/images/service'~index~'.svg' %}
+                <div class="service {{ position }}" data-sal="fade" data-sal-easing="ease-in-cubic">
+                    <a href="http://localhost/install-master/restaurant" target="_blank">
+                    <img src="{{ 'assets/dist/images/restoblack.png'|theme }}" class="service__image" alt="Service Item">
+                    
+                    <h3 class="service__title">Restaurant</h3>
+                    </a>
+                    <em class="testimonial__comment text-sm">Ciptakan resep menu baru dengan mengetahui demografi pembelian konsumen Restoran Anda.</em>
+                </div>
+                <div class="service {{ position }}" data-sal="fade" data-sal-easing="ease-in-cubic">
+                    <a href="http://localhost/install-master/retail" target="_blank">
+                    <img src="{{ 'assets/dist/images/retailblack.png'|theme }}" class="service__image" alt="Service Item">
+                    
+                    <h3 class="service__title">Retail</h3>
+                    </a>
+                    <em class="testimonial__comment text-sm">Meningkatkan Pelayanan dan Penjualan dengan sistem pembayaran otomatis Retail Anda.</em>
+                </div>
+                <div class="service {{ position }}" data-sal="fade" data-sal-easing="ease-in-cubic">
+                    <a href="http://localhost/install-master/cafe" target="_blank">
+                    <img src="{{ 'assets/dist/images/cafeblack.png'|theme }}" class="service__image" alt="Service Item">
+                    
+                    <h3 class="service__title">Cafe</h3>
+                    </a>
+                    <em class="testimonial__comment text-sm">Tingkatkan Omzet dengan Program Loyalti, menarik perhatian pelanggan untuk repeat order.</em>
+                </div>
+                 <div class="service {{ position }}" data-sal="fade" data-sal-easing="ease-in-cubic">
+                    <a href="http://localhost/install-master/bakery" target="_blank">
+                    <img src="{{ 'assets/dist/images/bakeryblack.png'|theme }}" class="service__image" alt="Service Item">
+                    
+                    <h3 class="service__title">Bakery</h3>
+                    </a>
+                    <em class="testimonial__comment text-sm">Optimalkan biaya produksi dengan Control Stock Level agar tidak banyak produk terbuang karena masa kadaluarsa.</em>
+                </div>
+            
+        </div>
+    </div>
+</section>

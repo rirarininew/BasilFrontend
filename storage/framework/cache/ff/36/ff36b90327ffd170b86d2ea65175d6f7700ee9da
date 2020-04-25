@@ -1,0 +1,36 @@
+1587538026a:1:{s:15:"solusiusaha.htm";a:6:{s:8:"fileName";s:15:"solusiusaha.htm";s:7:"content";s:433:"==
+<html lang="en">
+    <head>
+        {% partial 'meta' %}
+    </head>
+    <body class="font-body">
+        <div class="wrapper overflow-hidden">
+            <h1 class="hidden">{{ this.page.title }}</h1>
+            {% partial 'header' %}
+
+            {% partial 'restaurant' %}
+
+            {% partial 'contact' %}
+
+            {% partial 'footer' %}
+        </div>
+    {% partial 'scripts' %}
+    </body>
+</html>";s:5:"mtime";i:1587533106;s:6:"markup";s:429:"<html lang="en">
+    <head>
+        {% partial 'meta' %}
+    </head>
+    <body class="font-body">
+        <div class="wrapper overflow-hidden">
+            <h1 class="hidden">{{ this.page.title }}</h1>
+            {% partial 'header' %}
+
+            {% partial 'restaurant' %}
+
+            {% partial 'contact' %}
+
+            {% partial 'footer' %}
+        </div>
+    {% partial 'scripts' %}
+    </body>
+</html>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

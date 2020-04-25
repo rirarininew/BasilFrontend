@@ -1,0 +1,7 @@
+name: Basil
+description: 'Aplikasi Point Of Sales, Solusi usaha anda'
+author: Thunderlab.id
+homepage: 'http://octobercms.com'
+code: ''
+previewImage: assets/dist/images/preview.jpg
+form: fields.yaml

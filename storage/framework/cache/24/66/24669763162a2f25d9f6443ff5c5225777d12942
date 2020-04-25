@@ -1,0 +1,32 @@
+1587822234a:1:{s:14:"restaurant.htm";a:6:{s:8:"fileName";s:14:"restaurant.htm";s:7:"content";s:1043:"==
+<section id="restaurant" class="section mx-auto">
+     <div class="container mx-auto bg-im">
+       <br>
+       <h1 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic">Managemen <span class="text-kuning"> Restaurant </span>semakin mudah</h1>
+       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic">dengan Basil F&B</h2><br>
+       <p class="hero__tagline-subtitle text-center" data-sal="fade" data-sal-delay="100">
+       Kemudahan proses <i><b>Pembayaran</b></i><br>
+       Program Loyalitas Konsumen meningkatkan <i><b>Repeat Order</b></i> <br>
+       Maksimalkan <i><b>keuntungan</b></i> dari grafik menu favorit Konsumen<br>
+       Ciptakan <i><b>Resep Menu baru</b></i> dari data perilaku konsumen Restoran Anda.
+       <br><br>
+       <a class="btn btn--primary mt-8 align-center" data-sal="fade" data-sal-delay="300" href="#contact">{{ this.theme.hero_button_text }}</a>
+       <br><br><br><br><br>
+       </p>
+    </div>
+</section>";s:5:"mtime";i:1587704376;s:6:"markup";s:1039:"<section id="restaurant" class="section mx-auto">
+     <div class="container mx-auto bg-im">
+       <br>
+       <h1 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic">Managemen <span class="text-kuning"> Restaurant </span>semakin mudah</h1>
+       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic">dengan Basil F&B</h2><br>
+       <p class="hero__tagline-subtitle text-center" data-sal="fade" data-sal-delay="100">
+       Kemudahan proses <i><b>Pembayaran</b></i><br>
+       Program Loyalitas Konsumen meningkatkan <i><b>Repeat Order</b></i> <br>
+       Maksimalkan <i><b>keuntungan</b></i> dari grafik menu favorit Konsumen<br>
+       Ciptakan <i><b>Resep Menu baru</b></i> dari data perilaku konsumen Restoran Anda.
+       <br><br>
+       <a class="btn btn--primary mt-8 align-center" data-sal="fade" data-sal-delay="300" href="#contact">{{ this.theme.hero_button_text }}</a>
+       <br><br><br><br><br>
+       </p>
+    </div>
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
