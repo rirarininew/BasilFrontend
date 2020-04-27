@@ -1,0 +1,94 @@
+1587954130a:1:{s:14:"about-cafe.htm";a:6:{s:8:"fileName";s:14:"about-cafe.htm";s:7:"content";s:3156:"==
+<section id="about-cafe" class="about-us">
+    <div class="container section mx-auto">
+        <div class="about-us__content">
+            <ul class="mt-10 md:ml-8">
+                <li class="mb-6">
+                    <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
+                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                        <div class="item__content">
+                            <h3 class="item__title">Kemudahan Proses Pembayaran</h3>
+                            <p class="item__text md:w-3/4">dengan sistem pembayaran otomatis dari Basil memudahkan dan mempercepat proses pembayaran sehingga konsumen tidak perlu mengantri lama.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="mb-6">
+                    <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
+                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                        <div class="item__content">
+                            <h3 class="item__title">Program Loyalitas Konsumen</h3>
+                            <p class="item__text md:w-3/4">dengan program loyalitas konsumen menarik minat konsumen untuk melakukan repeat order sehingga meningkatkan penjualan bisnis anda.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="mb-6">
+                    <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
+                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                        <div class="item__content">
+                            <h3 class="item__title">Data menu favorit Pelanggan</h3>
+                            <p class="item__text md:w-3/4">dengan mengetahui menu favorit pelanggan, anda bisa fokus untuk produksi lebih pada menu yang paling disukai konsumen anda.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="mb-6">
+                    <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
+                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                        <div class="item__content">
+                            <h3 class="item__title">Data menu dengan Margin terbesar</h3>
+                            <p class="item__text md:w-3/4">anda bisa memaksimalkan keuntungan dengan fokus untuk produksi lebih pada menu yang memiliki keuntungan yang besar dari daftar menu.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="about-us__image">
+            <img src="{{ 'assets/dist/images/[Desktop] POS.png'|theme }}" class="mx-auto" alt="About Us Image" data-sal="slide-up" data-sal-delay="400" data-sal-duration="500">
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1587755942;s:6:"markup";s:3152:"<section id="about-cafe" class="about-us">
+    <div class="container section mx-auto">
+        <div class="about-us__content">
+            <ul class="mt-10 md:ml-8">
+                <li class="mb-6">
+                    <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
+                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                        <div class="item__content">
+                            <h3 class="item__title">Kemudahan Proses Pembayaran</h3>
+                            <p class="item__text md:w-3/4">dengan sistem pembayaran otomatis dari Basil memudahkan dan mempercepat proses pembayaran sehingga konsumen tidak perlu mengantri lama.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="mb-6">
+                    <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
+                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                        <div class="item__content">
+                            <h3 class="item__title">Program Loyalitas Konsumen</h3>
+                            <p class="item__text md:w-3/4">dengan program loyalitas konsumen menarik minat konsumen untuk melakukan repeat order sehingga meningkatkan penjualan bisnis anda.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="mb-6">
+                    <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
+                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                        <div class="item__content">
+                            <h3 class="item__title">Data menu favorit Pelanggan</h3>
+                            <p class="item__text md:w-3/4">dengan mengetahui menu favorit pelanggan, anda bisa fokus untuk produksi lebih pada menu yang paling disukai konsumen anda.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="mb-6">
+                    <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
+                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                        <div class="item__content">
+                            <h3 class="item__title">Data menu dengan Margin terbesar</h3>
+                            <p class="item__text md:w-3/4">anda bisa memaksimalkan keuntungan dengan fokus untuk produksi lebih pada menu yang memiliki keuntungan yang besar dari daftar menu.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="about-us__image">
+            <img src="{{ 'assets/dist/images/[Desktop] POS.png'|theme }}" class="mx-auto" alt="About Us Image" data-sal="slide-up" data-sal-delay="400" data-sal-duration="500">
+        </div>
+    </div>
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

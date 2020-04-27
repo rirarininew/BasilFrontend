@@ -1,0 +1,55 @@
+1587954092a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:610:"description = "Default layout"
+==
+<!doctype html>
+<html lang="en">
+    <head>
+        {% partial 'meta' %}
+    </head>
+    <body class="font-body">
+        <div class="wrapper overflow-hidden">
+            <h1 class="hidden">{{ this.page.title }}</h1>
+            {% partial 'header' %}
+
+            {% partial 'hero' %}
+
+            {% partial 'about-us' %}
+
+            {% partial 'testimonial' %}
+
+            {% partial 'services' %}
+
+            {% partial 'pricing' %}
+
+            {% partial 'contact' %}
+
+            {% partial 'footer' %}
+        </div>
+    {% partial 'scripts' %}
+    </body>
+</html>";s:5:"mtime";i:1587099617;s:6:"markup";s:576:"<!doctype html>
+<html lang="en">
+    <head>
+        {% partial 'meta' %}
+    </head>
+    <body class="font-body">
+        <div class="wrapper overflow-hidden">
+            <h1 class="hidden">{{ this.page.title }}</h1>
+            {% partial 'header' %}
+
+            {% partial 'hero' %}
+
+            {% partial 'about-us' %}
+
+            {% partial 'testimonial' %}
+
+            {% partial 'services' %}
+
+            {% partial 'pricing' %}
+
+            {% partial 'contact' %}
+
+            {% partial 'footer' %}
+        </div>
+    {% partial 'scripts' %}
+    </body>
+</html>";s:4:"code";N;s:11:"description";s:14:"Default layout";}}
