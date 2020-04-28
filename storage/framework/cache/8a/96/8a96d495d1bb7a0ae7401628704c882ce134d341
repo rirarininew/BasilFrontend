@@ -1,24 +1,32 @@
-1587954124a:1:{s:10:"retail.htm";a:6:{s:8:"fileName";s:10:"retail.htm";s:7:"content";s:754:"==
-<section id="retail" class="section mx-auto">
-     <div class="container mx-auto bg-ik">
-       <br>
-       <h1 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic">Managemen <span class="text-ungu"> Retail </span> semakin mudah</h1>
-       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic">dengan Basil F&B</h2>
-       <p class="hero__tagline-subtitle text-center" data-sal="fade" data-sal-delay="100">{{ this.theme.hero_subtitle }}<br><br>
-       <a class="btn btn--primary mt-8 align-center" data-sal="fade" data-sal-delay="300" href="#contact">{{ this.theme.hero_button_text }}</a>
-       <br><br><br><br><br>
+1588099797a:1:{s:10:"retail.htm";a:6:{s:8:"fileName";s:10:"retail.htm";s:7:"content";s:1328:"==
+<section id="retail" class="section mx-auto bg-im">
+     <div class="container mx-auto" style="color:#ffff">
+       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic" style="color:#ffff;margin-top:50px;font-family: calibri">MANAGEMEN <span style="color:#ff8100"> RETAIL </span>SEMAKIN MUDAH</h2>
+       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic" style="font-family: calibri">DENGAN BASIL F&B </h2><br>
+       <p class="text-center">
+          Kemudahan proses Pembayaran <i class="fas fa-check"></i><br>
+          Control Stock Level guna mengurangi skala kerugian <i class="fas fa-check"> </i><br>
+          Program Loyalitas Konsumen meningkatkan Repeat Order <i class="fas fa-check"> </i><br>
+          Bussiness Intelegent Purchasing untuk mendapatkan informasi yang akurat <i class="fas fa-check"> </i>
+       </p>
+       
+       <p class="hero__tagline-subtitle text-center" data-sal="fade" data-sal-delay="100" style="padding-top: 50px;padding-bottom: 100px;">
+       <a class="btn" data-sal="fade" data-sal-delay="300" href="#contact" style="border-radius:500px;padding: 20px 50px 20px 50px; color: white; background-color: #ff8100;">{{ this.theme.hero_button_text }}</a>
        </p>
     </div>
-        
-</section>";s:5:"mtime";i:1587665364;s:6:"markup";s:750:"<section id="retail" class="section mx-auto">
-     <div class="container mx-auto bg-ik">
-       <br>
-       <h1 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic">Managemen <span class="text-ungu"> Retail </span> semakin mudah</h1>
-       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic">dengan Basil F&B</h2>
-       <p class="hero__tagline-subtitle text-center" data-sal="fade" data-sal-delay="100">{{ this.theme.hero_subtitle }}<br><br>
-       <a class="btn btn--primary mt-8 align-center" data-sal="fade" data-sal-delay="300" href="#contact">{{ this.theme.hero_button_text }}</a>
-       <br><br><br><br><br>
+</section>";s:5:"mtime";i:1588094705;s:6:"markup";s:1324:"<section id="retail" class="section mx-auto bg-im">
+     <div class="container mx-auto" style="color:#ffff">
+       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic" style="color:#ffff;margin-top:50px;font-family: calibri">MANAGEMEN <span style="color:#ff8100"> RETAIL </span>SEMAKIN MUDAH</h2>
+       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic" style="font-family: calibri">DENGAN BASIL F&B </h2><br>
+       <p class="text-center">
+          Kemudahan proses Pembayaran <i class="fas fa-check"></i><br>
+          Control Stock Level guna mengurangi skala kerugian <i class="fas fa-check"> </i><br>
+          Program Loyalitas Konsumen meningkatkan Repeat Order <i class="fas fa-check"> </i><br>
+          Bussiness Intelegent Purchasing untuk mendapatkan informasi yang akurat <i class="fas fa-check"> </i>
+       </p>
+       
+       <p class="hero__tagline-subtitle text-center" data-sal="fade" data-sal-delay="100" style="padding-top: 50px;padding-bottom: 100px;">
+       <a class="btn" data-sal="fade" data-sal-delay="300" href="#contact" style="border-radius:500px;padding: 20px 50px 20px 50px; color: white; background-color: #ff8100;">{{ this.theme.hero_button_text }}</a>
        </p>
     </div>
-        
 </section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

@@ -36,75 +36,62 @@ class __TwigTemplate_fbf23ddabfe18bb7b7db7f5efdbbbb0b6ed39b8acfad70bac4eb8740668
         // line 1
         echo "<section id=\"next-solusiusaha\" class=\"pricing section\">
     <div class=\"container mx-auto\">
-        <h5 class=\"section__titleres text-center mb-12\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\">mungkin anda juga mencari</h5>
-        <br><br>
+        <h2 class=\"section__titleres text-center mb-5\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" style=\"margin-bottom:50px;font-family: calibri\">MUNGKIN ANDA JUGA MENCARI</h2>
         <div class=\"pricing__items\">
                 <div class=\"pricing__item ";
-        // line 6
-        echo ((twig_get_attribute($this->env, $this->source, ($context["plan"] ?? null), "highlighted", [], "any", false, false, false, 6)) ? ("pricing__item--active") : (""));
+        // line 5
+        echo ((twig_get_attribute($this->env, $this->source, ($context["plan"] ?? null), "highlighted", [], "any", false, false, false, 5)) ? ("pricing__item--active") : (""));
         echo "\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" data-sal-duration=\"400\">
                     <div class=\"pricing__item-content\">
                         <h3 class=\"pricing__item-title\">RESTAURANT</h3>
                         <img src=\"";
-        // line 9
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/restokecil.png");
+        // line 8
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/restokecill.png");
         echo "\" class=\"service__image\" alt=\"Service Item\">
                     </div>
-                    <a href=\"http://localhost/BasilFrontend/restaurant\" class=\"btn ";
-        // line 11
-        echo ((twig_get_attribute($this->env, $this->source, ($context["plan"] ?? null), "highlighted", [], "any", false, false, false, 11)) ? ("") : ("btn--primary"));
-        echo "\">LIHAT SEKARANG</a>
+                    <a class=\"btn\" href=\"http://localhost/BasilFrontend/restaurant\" style=\"border-radius:500px;padding: 10px 30px 10px 30px; color: white; background-color: #2dd1ac;\">See More</a>
                 </div>
                 
                 <div class=\"pricing__item ";
-        // line 14
-        echo ((twig_get_attribute($this->env, $this->source, ($context["plan"] ?? null), "highlighted", [], "any", false, false, false, 14)) ? ("pricing__item--active") : (""));
+        // line 13
+        echo ((twig_get_attribute($this->env, $this->source, ($context["plan"] ?? null), "highlighted", [], "any", false, false, false, 13)) ? ("pricing__item--active") : (""));
         echo "\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" data-sal-duration=\"400\">
                     <div class=\"pricing__item-content\">
                         <h3 class=\"pricing__item-title\">CAFE</h3>
                         <img src=\"";
-        // line 17
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/cafekecil.png");
+        // line 16
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/cafekecill.png");
         echo "\" class=\"service__image\" alt=\"Service Item\">
                     </div>
-                    <a href=\"http://localhost/BasilFrontend/cafe\" class=\"btn ";
-        // line 19
-        echo ((twig_get_attribute($this->env, $this->source, ($context["plan"] ?? null), "highlighted", [], "any", false, false, false, 19)) ? ("") : ("btn--primary"));
-        echo "\">LIHAT SEKARANG</a>
+                    <a class=\"btn\" href=\"http://localhost/BasilFrontend/cafe\" style=\"border-radius:500px;padding: 10px 30px 10px 30px; color: white; background-color: #2dd1ac;\">See More</a>
                 </div>
                 
                 <div class=\"pricing__item ";
-        // line 22
-        echo ((twig_get_attribute($this->env, $this->source, ($context["plan"] ?? null), "highlighted", [], "any", false, false, false, 22)) ? ("pricing__item--active") : (""));
+        // line 21
+        echo ((twig_get_attribute($this->env, $this->source, ($context["plan"] ?? null), "highlighted", [], "any", false, false, false, 21)) ? ("pricing__item--active") : (""));
         echo "\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" data-sal-duration=\"400\">
                     <div class=\"pricing__item-content\">
                         <h3 class=\"pricing__item-title\">RETAIL</h3>
                         <img src=\"";
-        // line 25
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/retailkecil.png");
+        // line 24
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/retailkecill.png");
         echo "\" class=\"service__image\" alt=\"Service Item\">
                     </div>
-                    <a href=\"http://localhost/BasilFrontend/retail\" class=\"btn ";
-        // line 27
-        echo ((twig_get_attribute($this->env, $this->source, ($context["plan"] ?? null), "highlighted", [], "any", false, false, false, 27)) ? ("") : ("btn--primary"));
-        echo "\">LIHAT SEKARANG</a>
+                    <a class=\"btn\" href=\"http://localhost/BasilFrontend/retail\" style=\"border-radius:500px;padding: 10px 30px 10px 30px; color: white; background-color: #2dd1ac;\">See More</a>
                 </div>
                 
                 <div class=\"pricing__item ";
-        // line 30
-        echo ((twig_get_attribute($this->env, $this->source, ($context["plan"] ?? null), "highlighted", [], "any", false, false, false, 30)) ? ("pricing__item--active") : (""));
+        // line 29
+        echo ((twig_get_attribute($this->env, $this->source, ($context["plan"] ?? null), "highlighted", [], "any", false, false, false, 29)) ? ("pricing__item--active") : (""));
         echo "\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" data-sal-duration=\"400\">
                     <div class=\"pricing__item-content\">
                         <h3 class=\"pricing__item-title\">BAKERY</h3>
                         <img src=\"";
-        // line 33
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/bakerykecil.png");
+        // line 32
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/bakerykecill.png");
         echo "\" class=\"service__image\" alt=\"Service Item\">
                     </div>
-                    <a href=\"http://localhost/BasilFrontend/bakery\" class=\"btn ";
-        // line 35
-        echo ((twig_get_attribute($this->env, $this->source, ($context["plan"] ?? null), "highlighted", [], "any", false, false, false, 35)) ? ("") : ("btn--primary"));
-        echo "\">LIHAT SEKARANG</a>
+                    <a class=\"btn\" href=\"http://localhost/BasilFrontend/bakery\" style=\"border-radius:500px;padding: 10px 30px 10px 30px; color: white; background-color: #2dd1ac;\">See More</a>
                 </div>
         </div>
     </div>
@@ -123,46 +110,45 @@ class __TwigTemplate_fbf23ddabfe18bb7b7db7f5efdbbbb0b6ed39b8acfad70bac4eb8740668
 
     public function getDebugInfo()
     {
-        return array (  106 => 35,  101 => 33,  95 => 30,  89 => 27,  84 => 25,  78 => 22,  72 => 19,  67 => 17,  61 => 14,  55 => 11,  50 => 9,  44 => 6,  37 => 1,);
+        return array (  91 => 32,  85 => 29,  77 => 24,  71 => 21,  63 => 16,  57 => 13,  49 => 8,  43 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<section id=\"next-solusiusaha\" class=\"pricing section\">
     <div class=\"container mx-auto\">
-        <h5 class=\"section__titleres text-center mb-12\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\">mungkin anda juga mencari</h5>
-        <br><br>
+        <h2 class=\"section__titleres text-center mb-5\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" style=\"margin-bottom:50px;font-family: calibri\">MUNGKIN ANDA JUGA MENCARI</h2>
         <div class=\"pricing__items\">
                 <div class=\"pricing__item {{ plan.highlighted ? 'pricing__item--active' }}\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" data-sal-duration=\"400\">
                     <div class=\"pricing__item-content\">
                         <h3 class=\"pricing__item-title\">RESTAURANT</h3>
-                        <img src=\"{{ 'assets/dist/images/restokecil.png'|theme }}\" class=\"service__image\" alt=\"Service Item\">
+                        <img src=\"{{ 'assets/dist/images/restokecill.png'|theme }}\" class=\"service__image\" alt=\"Service Item\">
                     </div>
-                    <a href=\"http://localhost/BasilFrontend/restaurant\" class=\"btn {{ plan.highlighted ? '': 'btn--primary'}}\">LIHAT SEKARANG</a>
+                    <a class=\"btn\" href=\"http://localhost/BasilFrontend/restaurant\" style=\"border-radius:500px;padding: 10px 30px 10px 30px; color: white; background-color: #2dd1ac;\">See More</a>
                 </div>
                 
                 <div class=\"pricing__item {{ plan.highlighted ? 'pricing__item--active' }}\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" data-sal-duration=\"400\">
                     <div class=\"pricing__item-content\">
                         <h3 class=\"pricing__item-title\">CAFE</h3>
-                        <img src=\"{{ 'assets/dist/images/cafekecil.png'|theme }}\" class=\"service__image\" alt=\"Service Item\">
+                        <img src=\"{{ 'assets/dist/images/cafekecill.png'|theme }}\" class=\"service__image\" alt=\"Service Item\">
                     </div>
-                    <a href=\"http://localhost/BasilFrontend/cafe\" class=\"btn {{ plan.highlighted ? '': 'btn--primary'}}\">LIHAT SEKARANG</a>
+                    <a class=\"btn\" href=\"http://localhost/BasilFrontend/cafe\" style=\"border-radius:500px;padding: 10px 30px 10px 30px; color: white; background-color: #2dd1ac;\">See More</a>
                 </div>
                 
                 <div class=\"pricing__item {{ plan.highlighted ? 'pricing__item--active' }}\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" data-sal-duration=\"400\">
                     <div class=\"pricing__item-content\">
                         <h3 class=\"pricing__item-title\">RETAIL</h3>
-                        <img src=\"{{ 'assets/dist/images/retailkecil.png'|theme }}\" class=\"service__image\" alt=\"Service Item\">
+                        <img src=\"{{ 'assets/dist/images/retailkecill.png'|theme }}\" class=\"service__image\" alt=\"Service Item\">
                     </div>
-                    <a href=\"http://localhost/BasilFrontend/retail\" class=\"btn {{ plan.highlighted ? '': 'btn--primary'}}\">LIHAT SEKARANG</a>
+                    <a class=\"btn\" href=\"http://localhost/BasilFrontend/retail\" style=\"border-radius:500px;padding: 10px 30px 10px 30px; color: white; background-color: #2dd1ac;\">See More</a>
                 </div>
                 
                 <div class=\"pricing__item {{ plan.highlighted ? 'pricing__item--active' }}\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" data-sal-duration=\"400\">
                     <div class=\"pricing__item-content\">
                         <h3 class=\"pricing__item-title\">BAKERY</h3>
-                        <img src=\"{{ 'assets/dist/images/bakerykecil.png'|theme }}\" class=\"service__image\" alt=\"Service Item\">
+                        <img src=\"{{ 'assets/dist/images/bakerykecill.png'|theme }}\" class=\"service__image\" alt=\"Service Item\">
                     </div>
-                    <a href=\"http://localhost/BasilFrontend/bakery\" class=\"btn {{ plan.highlighted ? '': 'btn--primary'}}\">LIHAT SEKARANG</a>
+                    <a class=\"btn\" href=\"http://localhost/BasilFrontend/bakery\" style=\"border-radius:500px;padding: 10px 30px 10px 30px; color: white; background-color: #2dd1ac;\">See More</a>
                 </div>
         </div>
     </div>

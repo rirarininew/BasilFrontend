@@ -1,94 +1,94 @@
-1587954124a:1:{s:16:"about-retail.htm";a:6:{s:8:"fileName";s:16:"about-retail.htm";s:7:"content";s:3168:"==
+1588099797a:1:{s:16:"about-retail.htm";a:6:{s:8:"fileName";s:16:"about-retail.htm";s:7:"content";s:3186:"==
 <section id="about-retail" class="about-us">
     <div class="container section mx-auto">
         <div class="about-us__content">
             <ul class="mt-10 md:ml-8">
                 <li class="mb-6">
                     <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
-                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                    <i class="item__icon fas fa-check" style="color:#2dd1ac"></i>
                         <div class="item__content">
-                            <h3 class="item__title">Kemudahan Proses Pembayaran</h3>
-                            <p class="item__text md:w-3/4">dengan sistem pembayaran otomatis dari Basil memudahkan dan mempercepat proses pembayaran sehingga konsumen tidak perlu mengantri lama.</p>
+                            <h3 class="item__title" style="color:#0a0707">MENGURANGI BIAYA PRODUKSI</h3>
+                            <p class="item__text md:w-3/4" style="color:#707e7e">mengoptimalkan biaya produksi dengan Control Stock Level agar tidak banyak produk terbuang karena masa kadaluarsa.</p>
                         </div>
                     </div>
                 </li>
                 <li class="mb-6">
                     <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
-                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                    <i class="item__icon fas fa-check" style="color:#2dd1ac"></i>
                         <div class="item__content">
-                            <h3 class="item__title">Control Stock Level</h3>
-                            <p class="item__text md:w-3/4">anda dapat memprioritaskan untuk re-stock barang yang paling laris dan mengurangi untuk re-stock barang yang jarang dibeli oleh konsumen.</p>
+                            <h3 class="item__title" style="color:#0a0707">KEMUDAHAN PROSES PEMBAYARAN</h3>
+                            <p class="item__text md:w-3/4" style="color:#707e7e">dengan sistem pembayaran otomatis dari Basil memudahkan dan mempercepat proses pembayaran sehingga konsumen tidak perlu mengantri lama.</p>
                         </div>
                     </div>
                 </li>
                 <li class="mb-6">
                     <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
-                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                    <i class="item__icon fas fa-check" style="color:#2dd1ac"></i>
                         <div class="item__content">
-                            <h3 class="item__title">Program Loyalitas Konsumen</h3>
-                            <p class="item__text md:w-3/4">dengan program loyalitas konsumen menarik minat konsumen untuk melakukan repeat order sehingga meningkatkan penjualan bisnis anda.</p>
+                            <h3 class="item__title" style="color:#0a0707">CONTROL STOCK LEVEL</h3>
+                            <p class="item__text md:w-3/4" style="color:#707e7e">anda dapat memprioritaskan untuk re-stock barang yang paling laris dan mengurangi untuk re-stock barang yang jarang dibeli oleh konsumen.</p>
                         </div>
                     </div>
                 </li>
                 <li class="mb-6">
                     <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
-                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                    <i class="item__icon fas fa-check" style="color:#2dd1ac"></i>
                         <div class="item__content">
-                            <h3 class="item__title">Bussiness Intelegent Purchasing</h3>
-                            <p class="item__text md:w-3/4">Membantu anda mendapatkan informasi yang akurat sehingga dapat membuat keputusan bisnis yang berdasarkan data, bukan berdasarkan insting.</p>
+                            <h3 class="item__title" style="color:#0a0707">BUSSINESS INTELEGENT PURCHASING</h3>
+                            <p class="item__text md:w-3/4" style="color:#707e7e">Membantu anda mendapatkan informasi yang akurat sehingga dapat membuat keputusan bisnis yang berdasarkan data, bukan berdasarkan insting.</p>
                         </div>
                     </div>
                 </li>
             </ul>
         </div>
         <div class="about-us__image">
-            <img src="{{ 'assets/dist/images/[Desktop] POS.png'|theme }}" class="mx-auto" alt="About Us Image" data-sal="slide-up" data-sal-delay="400" data-sal-duration="500">
+            <img src="{{ 'assets/dist/images/[Desktop] POS.png'|theme }}" class="mx-auto" style="padding: 100px 30px 10px 30px;" alt="About Us Image" data-sal="slide-up" data-sal-delay="400" data-sal-duration="500">
         </div>
     </div>
-</section>";s:5:"mtime";i:1587756647;s:6:"markup";s:3164:"<section id="about-retail" class="about-us">
+</section>";s:5:"mtime";i:1588094839;s:6:"markup";s:3182:"<section id="about-retail" class="about-us">
     <div class="container section mx-auto">
         <div class="about-us__content">
             <ul class="mt-10 md:ml-8">
                 <li class="mb-6">
                     <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
-                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                    <i class="item__icon fas fa-check" style="color:#2dd1ac"></i>
                         <div class="item__content">
-                            <h3 class="item__title">Kemudahan Proses Pembayaran</h3>
-                            <p class="item__text md:w-3/4">dengan sistem pembayaran otomatis dari Basil memudahkan dan mempercepat proses pembayaran sehingga konsumen tidak perlu mengantri lama.</p>
+                            <h3 class="item__title" style="color:#0a0707">MENGURANGI BIAYA PRODUKSI</h3>
+                            <p class="item__text md:w-3/4" style="color:#707e7e">mengoptimalkan biaya produksi dengan Control Stock Level agar tidak banyak produk terbuang karena masa kadaluarsa.</p>
                         </div>
                     </div>
                 </li>
                 <li class="mb-6">
                     <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
-                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                    <i class="item__icon fas fa-check" style="color:#2dd1ac"></i>
                         <div class="item__content">
-                            <h3 class="item__title">Control Stock Level</h3>
-                            <p class="item__text md:w-3/4">anda dapat memprioritaskan untuk re-stock barang yang paling laris dan mengurangi untuk re-stock barang yang jarang dibeli oleh konsumen.</p>
+                            <h3 class="item__title" style="color:#0a0707">KEMUDAHAN PROSES PEMBAYARAN</h3>
+                            <p class="item__text md:w-3/4" style="color:#707e7e">dengan sistem pembayaran otomatis dari Basil memudahkan dan mempercepat proses pembayaran sehingga konsumen tidak perlu mengantri lama.</p>
                         </div>
                     </div>
                 </li>
                 <li class="mb-6">
                     <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
-                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                    <i class="item__icon fas fa-check" style="color:#2dd1ac"></i>
                         <div class="item__content">
-                            <h3 class="item__title">Program Loyalitas Konsumen</h3>
-                            <p class="item__text md:w-3/4">dengan program loyalitas konsumen menarik minat konsumen untuk melakukan repeat order sehingga meningkatkan penjualan bisnis anda.</p>
+                            <h3 class="item__title" style="color:#0a0707">CONTROL STOCK LEVEL</h3>
+                            <p class="item__text md:w-3/4" style="color:#707e7e">anda dapat memprioritaskan untuk re-stock barang yang paling laris dan mengurangi untuk re-stock barang yang jarang dibeli oleh konsumen.</p>
                         </div>
                     </div>
                 </li>
                 <li class="mb-6">
                     <div class="item" data-sal="slide-up" data-sal-easing="ease-in-cubic">
-                    <i class="item__icon material-icons text-primary"><img src="{{ 'assets/dist/images/cek.png'|theme }}"></i>
+                    <i class="item__icon fas fa-check" style="color:#2dd1ac"></i>
                         <div class="item__content">
-                            <h3 class="item__title">Bussiness Intelegent Purchasing</h3>
-                            <p class="item__text md:w-3/4">Membantu anda mendapatkan informasi yang akurat sehingga dapat membuat keputusan bisnis yang berdasarkan data, bukan berdasarkan insting.</p>
+                            <h3 class="item__title" style="color:#0a0707">BUSSINESS INTELEGENT PURCHASING</h3>
+                            <p class="item__text md:w-3/4" style="color:#707e7e">Membantu anda mendapatkan informasi yang akurat sehingga dapat membuat keputusan bisnis yang berdasarkan data, bukan berdasarkan insting.</p>
                         </div>
                     </div>
                 </li>
             </ul>
         </div>
         <div class="about-us__image">
-            <img src="{{ 'assets/dist/images/[Desktop] POS.png'|theme }}" class="mx-auto" alt="About Us Image" data-sal="slide-up" data-sal-delay="400" data-sal-duration="500">
+            <img src="{{ 'assets/dist/images/[Desktop] POS.png'|theme }}" class="mx-auto" style="padding: 100px 30px 10px 30px;" alt="About Us Image" data-sal="slide-up" data-sal-delay="400" data-sal-duration="500">
         </div>
     </div>
 </section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

@@ -36,7 +36,7 @@ class __TwigTemplate_c4930368231d70febc00156407f4c232e6f71b28f6af5f6d68c28938f5b
         // line 1
         echo "<section id=\"testimonials\" class=\"testimonials container section mx-auto\">
     <div class=\"w-full md:w-1/2 pl-0 md:pl-16 text-center md:text-left\">
-        <h2 class=\"w-full md:w-3/4 font-bold text-5xl leading-none mb-6\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\">";
+        <h2 class=\"w-full font-bold text-5xl leading-none mb-6\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" style=\"margin-top:100px;\">";
         // line 3
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 3), "testimonial_title", [], "any", false, false, false, 3), "html", null, true);
         echo "</h2>
@@ -108,7 +108,7 @@ class __TwigTemplate_c4930368231d70febc00156407f4c232e6f71b28f6af5f6d68c28938f5b
     {
         return new Source("<section id=\"testimonials\" class=\"testimonials container section mx-auto\">
     <div class=\"w-full md:w-1/2 pl-0 md:pl-16 text-center md:text-left\">
-        <h2 class=\"w-full md:w-3/4 font-bold text-5xl leading-none mb-6\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\">{{ this.theme.testimonial_title }}</h2>
+        <h2 class=\"w-full font-bold text-5xl leading-none mb-6\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" style=\"margin-top:100px;\">{{ this.theme.testimonial_title }}</h2>
         <p class=\"w-full md:w-3/4\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\">{{ this.theme.testimonial_description }}</p>
     </div>
     <div class=\"w-full md:w-1/2 pt-12 md:pt-0\">

@@ -1,4 +1,4 @@
-1587954094a:1:{s:8:"meta.htm";a:5:{s:8:"fileName";s:8:"meta.htm";s:7:"content";s:834:"<meta charset="UTF-8">
+1588099790a:1:{s:8:"meta.htm";a:5:{s:8:"fileName";s:8:"meta.htm";s:7:"content";s:924:"<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="{{ this.page.meta_description|default(this.theme.description) }}">
@@ -9,7 +9,8 @@
 <link rel="icon" type="image/png" href="{{ 'assets/dist/images/favicon-32x32.png'|theme }}" />
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="{{ 'assets/dist/css/style.css'|theme }}">";s:5:"mtime";i:1587099617;s:6:"markup";s:834:"<meta charset="UTF-8">
+<link rel="stylesheet" href="{{ 'assets/dist/css/style.css'|theme }}">
+<script src="https://kit.fontawesome.com/abe47447c7.js" crossorigin="anonymous"></script>";s:5:"mtime";i:1588069440;s:6:"markup";s:924:"<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="{{ this.page.meta_description|default(this.theme.description) }}">
@@ -20,4 +21,5 @@
 <link rel="icon" type="image/png" href="{{ 'assets/dist/images/favicon-32x32.png'|theme }}" />
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="{{ 'assets/dist/css/style.css'|theme }}">";s:4:"code";N;}}
+<link rel="stylesheet" href="{{ 'assets/dist/css/style.css'|theme }}">
+<script src="https://kit.fontawesome.com/abe47447c7.js" crossorigin="anonymous"></script>";s:4:"code";N;}}

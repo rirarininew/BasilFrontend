@@ -66,7 +66,8 @@ class __TwigTemplate_74583708f715d71879ec6c7c4860ef483b14f677edb3dc36109ce84ee59
 <link rel=\"stylesheet\" href=\"";
         // line 12
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/css/style.css");
-        echo "\">";
+        echo "\">
+<script src=\"https://kit.fontawesome.com/abe47447c7.js\" crossorigin=\"anonymous\"></script>";
     }
 
     public function getTemplateName()
@@ -97,6 +98,7 @@ class __TwigTemplate_74583708f715d71879ec6c7c4860ef483b14f677edb3dc36109ce84ee59
 <link rel=\"icon\" type=\"image/png\" href=\"{{ 'assets/dist/images/favicon-32x32.png'|theme }}\" />
 <link href=\"https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700&display=swap\" rel=\"stylesheet\">
 <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">
-<link rel=\"stylesheet\" href=\"{{ 'assets/dist/css/style.css'|theme }}\">", "C:\\xampp\\htdocs\\BasilFrontend/themes/thebakerdev-zenii/partials/meta.htm", "");
+<link rel=\"stylesheet\" href=\"{{ 'assets/dist/css/style.css'|theme }}\">
+<script src=\"https://kit.fontawesome.com/abe47447c7.js\" crossorigin=\"anonymous\"></script>", "C:\\xampp\\htdocs\\BasilFrontend/themes/thebakerdev-zenii/partials/meta.htm", "");
     }
 }

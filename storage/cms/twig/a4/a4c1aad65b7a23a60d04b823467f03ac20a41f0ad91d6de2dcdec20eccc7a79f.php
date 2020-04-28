@@ -54,20 +54,19 @@ class __TwigTemplate_36147bd76571a16bc070b671400fb64827ae839b7d8423263176d011612
             // line 8
             echo "                    <li class=\"mb-6\">
                         <div class=\"item\" data-sal=\"slide-up\" data-sal-easing=\"ease-in-cubic\">
-                            <i class=\"item__icon material-icons text-primary\">";
-            // line 10
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about_item"], "icon", [], "any", false, false, false, 10), "html", null, true);
-            echo "</i>
+                            <i class=\"item__icon fas fa-check\" style=\"color:#2dd1ac\"></i>
+                            <!-- <i class=\"item__icon material-icons text-primary\">";
+            // line 11
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about_item"], "icon", [], "any", false, false, false, 11), "html", null, true);
+            echo "</i> -->
                             <div class=\"item__content\">
-                                <a href=\"http://localhost/BasilFrontend/restaurant\" target=\"_blank\">
                                 <h3 class=\"item__title\">";
             // line 13
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about_item"], "title", [], "any", false, false, false, 13), "html", null, true);
             echo "</h3>
-                                </a>
                                 <p class=\"item__text md:w-3/4\">";
-            // line 15
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about_item"], "description", [], "any", false, false, false, 15), "html", null, true);
+            // line 14
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["about_item"], "description", [], "any", false, false, false, 14), "html", null, true);
             echo "</p>
                             </div>
                         </div>
@@ -77,14 +76,14 @@ class __TwigTemplate_36147bd76571a16bc070b671400fb64827ae839b7d8423263176d011612
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['about_item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 20
+        // line 19
         echo "            </ul>
         </div>
         <div class=\"about-us__image\">
             <img src=\"";
-        // line 23
-        echo ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 23), "about_image", [], "any", false, false, false, 23)) ? ($this->extensions['System\Twig\Extension']->mediaFilter(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 23), "about_image", [], "any", false, false, false, 23))) : ($this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/about.svg")));
-        echo "\" class=\"mx-auto\" alt=\"About Us Image\" data-sal=\"slide-up\" data-sal-delay=\"400\" data-sal-duration=\"500\">
+        // line 22
+        echo ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 22), "about_image", [], "any", false, false, false, 22)) ? ($this->extensions['System\Twig\Extension']->mediaFilter(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 22), "about_image", [], "any", false, false, false, 22))) : ($this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/about.svg")));
+        echo "\" class=\"mx-auto\" alt=\"About Us Image\" data-sal=\"slide-up\" data-sal-delay=\"400\" data-sal-duration=\"500\" style=\"margin-top:100px;padding: 0px 50px 0px 0px;\">
         </div>
     </div>
 </section>";
@@ -102,7 +101,7 @@ class __TwigTemplate_36147bd76571a16bc070b671400fb64827ae839b7d8423263176d011612
 
     public function getDebugInfo()
     {
-        return array (  86 => 23,  81 => 20,  70 => 15,  65 => 13,  59 => 10,  55 => 8,  51 => 7,  46 => 5,  42 => 4,  37 => 1,);
+        return array (  85 => 22,  80 => 19,  69 => 14,  65 => 13,  60 => 11,  55 => 8,  51 => 7,  46 => 5,  42 => 4,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -116,11 +115,10 @@ class __TwigTemplate_36147bd76571a16bc070b671400fb64827ae839b7d8423263176d011612
                 {% for about_item in this.theme.about_items %}
                     <li class=\"mb-6\">
                         <div class=\"item\" data-sal=\"slide-up\" data-sal-easing=\"ease-in-cubic\">
-                            <i class=\"item__icon material-icons text-primary\">{{ about_item.icon }}</i>
+                            <i class=\"item__icon fas fa-check\" style=\"color:#2dd1ac\"></i>
+                            <!-- <i class=\"item__icon material-icons text-primary\">{{ about_item.icon }}</i> -->
                             <div class=\"item__content\">
-                                <a href=\"http://localhost/BasilFrontend/restaurant\" target=\"_blank\">
                                 <h3 class=\"item__title\">{{ about_item.title }}</h3>
-                                </a>
                                 <p class=\"item__text md:w-3/4\">{{ about_item.description }}</p>
                             </div>
                         </div>
@@ -129,7 +127,7 @@ class __TwigTemplate_36147bd76571a16bc070b671400fb64827ae839b7d8423263176d011612
             </ul>
         </div>
         <div class=\"about-us__image\">
-            <img src=\"{{ this.theme.about_image ? this.theme.about_image|media : 'assets/dist/images/about.svg'|theme }}\" class=\"mx-auto\" alt=\"About Us Image\" data-sal=\"slide-up\" data-sal-delay=\"400\" data-sal-duration=\"500\">
+            <img src=\"{{ this.theme.about_image ? this.theme.about_image|media : 'assets/dist/images/about.svg'|theme }}\" class=\"mx-auto\" alt=\"About Us Image\" data-sal=\"slide-up\" data-sal-delay=\"400\" data-sal-duration=\"500\" style=\"margin-top:100px;padding: 0px 50px 0px 0px;\">
         </div>
     </div>
 </section>", "C:\\xampp\\htdocs\\BasilFrontend/themes/thebakerdev-zenii/partials/about-us.htm", "");

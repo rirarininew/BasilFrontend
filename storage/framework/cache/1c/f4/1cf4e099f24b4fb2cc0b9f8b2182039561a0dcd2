@@ -1,4 +1,4 @@
-1587954095a:1:{s:11:"pricing.htm";a:5:{s:8:"fileName";s:11:"pricing.htm";s:7:"content";s:1277:"<section id="pricing" class="pricing section bg-gray">
+1588094274a:1:{s:11:"pricing.htm";a:5:{s:8:"fileName";s:11:"pricing.htm";s:7:"content";s:1277:"<section id="pricing" class="pricing section bg-gray">
     <div class="container mx-auto">
         <h2 class="section__title text-center mb-16" data-sal="fade" data-sal-easing="ease-in-cubic">{{ this.theme.pricing_title }}</h2>
         <div class="pricing__items">
