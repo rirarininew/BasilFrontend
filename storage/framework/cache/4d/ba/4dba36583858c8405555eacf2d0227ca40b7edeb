@@ -1,9 +1,9 @@
-1588094584a:1:{s:21:"solusiusaha-resto.htm";a:6:{s:8:"fileName";s:21:"solusiusaha-resto.htm";s:7:"content";s:514:"==
+1588250255a:1:{s:21:"solusiusaha-resto.htm";a:6:{s:8:"fileName";s:21:"solusiusaha-resto.htm";s:7:"content";s:520:"==
 <html lang="en">
     <head>
         {% partial 'meta' %}
     </head>
-    <body class="font-body">
+    <body class="font-body bg-im">
         <div class="wrapper overflow-hidden">
             <h1 class="hidden">{{ this.page.title }}</h1>
             {% partial 'header' %}
@@ -18,11 +18,11 @@
         </div>
     {% partial 'scripts' %}
     </body>
-</html>";s:5:"mtime";i:1588083798;s:6:"markup";s:510:"<html lang="en">
+</html>";s:5:"mtime";i:1588249643;s:6:"markup";s:516:"<html lang="en">
     <head>
         {% partial 'meta' %}
     </head>
-    <body class="font-body">
+    <body class="font-body bg-im">
         <div class="wrapper overflow-hidden">
             <h1 class="hidden">{{ this.page.title }}</h1>
             {% partial 'header' %}

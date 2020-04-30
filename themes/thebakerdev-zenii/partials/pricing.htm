@@ -1,3 +1,4 @@
+==
 <section id="pricing" class="pricing section bg-gray">
     <div class="container mx-auto">
         <h2 class="section__title text-center mb-16" data-sal="fade" data-sal-easing="ease-in-cubic">{{ this.theme.pricing_title }}</h2>
@@ -9,7 +10,8 @@
                         <p class="pricing__item-price"><span>{{ plan.currency }}</span><span>{{ plan.price }}</span>/{{ plan.plan_type }}</p>
                         <ul class="pricing__item-features">
                             {% for feature in plan.plan_features|split(',') %}
-                                <li>{{ feature }}</li>
+                                <!-- <li class="item__text" style="text-align:left">{{ feature }}</li> -->
+                                <li class="item__text" style="text-align:left"><span style="font-family: calibri"> {{ feature }} </span></li>
                             {% endfor %} 
                         </ul>
                     </div>

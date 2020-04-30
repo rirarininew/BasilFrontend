@@ -12,8 +12,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* C:\xampp\htdocs\BasilFrontend/themes/thebakerdev-zenii/partials/header.htm */
-class __TwigTemplate_bd4ce8948310556bbfa5506d1dab16745e2a038dc4d6ae9be4804df3b0d8ba29 extends \Twig\Template
+/* C:\xampp\htdocs\BasilFrontend/themes/thebakerdev-zenii/partials/header-shadow.htm */
+class __TwigTemplate_a06a888a34937504e7a3ab6f24a1e3161321f6e50140e712408abe66164f1d05 extends \Twig\Template
 {
     private $source;
     private $macros = [];
@@ -34,11 +34,11 @@ class __TwigTemplate_bd4ce8948310556bbfa5506d1dab16745e2a038dc4d6ae9be4804df3b0d
     {
         $macros = $this->macros;
         // line 1
-        echo "<header class=\"header\">
+        echo "<header class=\"header\"  style=\"background-color: #ffff;opacity: 40%\">
     <a href=\"/install-master\"><img src=\"";
         // line 2
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/BASILlogor.png");
-        echo "\" width=\"80px\" height=\"78px\" alt=\"logo\" class=\"logo\" style=\"margin-left:35px\"></a>
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/BASIL2.png");
+        echo "\" width=\"80px\" height=\"78px\" alt=\"logo\" class=\"logo\"></a>
     <nav class=\"nav\">
         <h2 class=\"hidden\">Top navigation</h2>
         <ul id=\"nav_menu\" class=\"nav__menu\">
@@ -46,7 +46,7 @@ class __TwigTemplate_bd4ce8948310556bbfa5506d1dab16745e2a038dc4d6ae9be4804df3b0d
             <li><a href=\"http://localhost/BasilFrontend/#services\">Solusi Usaha</a></li>
             <li><a href=\"http://localhost/BasilFrontend/#pricing\">Harga</a></li>
             <li><a href=\"http://localhost/BasilFrontend/#contact\">Hubungi Kami</a></li>
-            <li><a class=\"btn mt-8\" data-sal=\"fade\" data-sal-delay=\"300\" style=\"background-color:#4444\" href=\"https://www.instagram.com/rirarini\">login</a></li>
+            <li><a class=\"btn btn--primary mt-8\" data-sal=\"fade\" data-sal-delay=\"300\" href=\"https://www.instagram.com/rirarini\">login</a></li>
         </ul>
         <button id=\"nav_menu_button\" class=\"nav__menu-button\">
             <span></span>
@@ -59,7 +59,7 @@ class __TwigTemplate_bd4ce8948310556bbfa5506d1dab16745e2a038dc4d6ae9be4804df3b0d
 
     public function getTemplateName()
     {
-        return "C:\\xampp\\htdocs\\BasilFrontend/themes/thebakerdev-zenii/partials/header.htm";
+        return "C:\\xampp\\htdocs\\BasilFrontend/themes/thebakerdev-zenii/partials/header-shadow.htm";
     }
 
     public function isTraitable()
@@ -74,8 +74,8 @@ class __TwigTemplate_bd4ce8948310556bbfa5506d1dab16745e2a038dc4d6ae9be4804df3b0d
 
     public function getSourceContext()
     {
-        return new Source("<header class=\"header\">
-    <a href=\"/install-master\"><img src=\"{{ 'assets/dist/images/BASILlogor.png'|theme }}\" width=\"80px\" height=\"78px\" alt=\"logo\" class=\"logo\" style=\"margin-left:35px\"></a>
+        return new Source("<header class=\"header\"  style=\"background-color: #ffff;opacity: 40%\">
+    <a href=\"/install-master\"><img src=\"{{ 'assets/dist/images/BASIL2.png'|theme }}\" width=\"80px\" height=\"78px\" alt=\"logo\" class=\"logo\"></a>
     <nav class=\"nav\">
         <h2 class=\"hidden\">Top navigation</h2>
         <ul id=\"nav_menu\" class=\"nav__menu\">
@@ -83,7 +83,7 @@ class __TwigTemplate_bd4ce8948310556bbfa5506d1dab16745e2a038dc4d6ae9be4804df3b0d
             <li><a href=\"http://localhost/BasilFrontend/#services\">Solusi Usaha</a></li>
             <li><a href=\"http://localhost/BasilFrontend/#pricing\">Harga</a></li>
             <li><a href=\"http://localhost/BasilFrontend/#contact\">Hubungi Kami</a></li>
-            <li><a class=\"btn mt-8\" data-sal=\"fade\" data-sal-delay=\"300\" style=\"background-color:#4444\" href=\"https://www.instagram.com/rirarini\">login</a></li>
+            <li><a class=\"btn btn--primary mt-8\" data-sal=\"fade\" data-sal-delay=\"300\" href=\"https://www.instagram.com/rirarini\">login</a></li>
         </ul>
         <button id=\"nav_menu_button\" class=\"nav__menu-button\">
             <span></span>
@@ -91,6 +91,6 @@ class __TwigTemplate_bd4ce8948310556bbfa5506d1dab16745e2a038dc4d6ae9be4804df3b0d
             <span></span>
         </button>
     </nav>
-</header>", "C:\\xampp\\htdocs\\BasilFrontend/themes/thebakerdev-zenii/partials/header.htm", "");
+</header>", "C:\\xampp\\htdocs\\BasilFrontend/themes/thebakerdev-zenii/partials/header-shadow.htm", "");
     }
 }

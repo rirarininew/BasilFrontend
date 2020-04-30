@@ -1,7 +1,7 @@
-1588099790a:1:{s:8:"cafe.htm";a:6:{s:8:"fileName";s:8:"cafe.htm";s:7:"content";s:1330:"==
-<section id="restaurant" class="section mx-auto bg-im">
-     <div class="container mx-auto" style="color:#ffff">
-       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic" style="color:#ffff;margin-top:50px;font-family: calibri">MANAGEMEN <span style="color:#ff8100"> CAFE </span>SEMAKIN MUDAH</h2>
+1588250552a:1:{s:8:"cafe.htm";a:6:{s:8:"fileName";s:8:"cafe.htm";s:7:"content";s:1322:"==
+<section id="cafe" class="section mx-auto bg-im">
+     <div class="container mx-auto" style="color:#444">
+       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic" style="color:#444;margin-top:50px;font-family: calibri">MANAGEMEN <span style="color:#ff8100"> CAFE </span>SEMAKIN MUDAH</h2>
        <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic" style="font-family: calibri">DENGAN BASIL F&B </h2><br>
        <p class="text-center">
           Kemudahan proses Pembayaran <i class="fas fa-check"></i><br>
@@ -14,9 +14,9 @@
        <a class="btn" data-sal="fade" data-sal-delay="300" href="#contact" style="border-radius:500px;padding: 20px 50px 20px 50px; color: white; background-color: #ff8100;">{{ this.theme.hero_button_text }}</a>
        </p>
     </div>
-</section>";s:5:"mtime";i:1588098494;s:6:"markup";s:1326:"<section id="restaurant" class="section mx-auto bg-im">
-     <div class="container mx-auto" style="color:#ffff">
-       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic" style="color:#ffff;margin-top:50px;font-family: calibri">MANAGEMEN <span style="color:#ff8100"> CAFE </span>SEMAKIN MUDAH</h2>
+</section>";s:5:"mtime";i:1588249947;s:6:"markup";s:1318:"<section id="cafe" class="section mx-auto bg-im">
+     <div class="container mx-auto" style="color:#444">
+       <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic" style="color:#444;margin-top:50px;font-family: calibri">MANAGEMEN <span style="color:#ff8100"> CAFE </span>SEMAKIN MUDAH</h2>
        <h2 class="section__titleres text-center mb-5" data-sal="fade" data-sal-easing="ease-in-cubic" style="font-family: calibri">DENGAN BASIL F&B </h2><br>
        <p class="text-center">
           Kemudahan proses Pembayaran <i class="fas fa-check"></i><br>

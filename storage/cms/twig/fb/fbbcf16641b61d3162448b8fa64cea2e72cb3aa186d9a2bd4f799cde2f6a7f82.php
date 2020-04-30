@@ -43,7 +43,7 @@ class __TwigTemplate_e9a7339a81c9af281db7b119b77468aa29414ab5445dfb251a3d1683855
         unset($context['__cms_partial_params']);
         // line 4
         echo "    </head>
-    <body class=\"font-body\">
+    <body class=\"font-body bg-im\">
         <div class=\"wrapper overflow-hidden\">
             <h1 class=\"hidden\">";
         // line 7
@@ -115,7 +115,7 @@ class __TwigTemplate_e9a7339a81c9af281db7b119b77468aa29414ab5445dfb251a3d1683855
     <head>
         {% partial 'meta' %}
     </head>
-    <body class=\"font-body\">
+    <body class=\"font-body bg-im\">
         <div class=\"wrapper overflow-hidden\">
             <h1 class=\"hidden\">{{ this.page.title }}</h1>
             {% partial 'header' %}

@@ -1,4 +1,4 @@
-1588094585a:1:{s:20:"about-restaurant.htm";a:6:{s:8:"fileName";s:20:"about-restaurant.htm";s:7:"content";s:3191:"==
+1588250486a:1:{s:20:"about-restaurant.htm";a:6:{s:8:"fileName";s:20:"about-restaurant.htm";s:7:"content";s:3191:"==
 <section id="about-restaurant" class="about-us">
     <div class="container section mx-auto">
         <div class="about-us__content">
@@ -45,7 +45,7 @@
             <img src="{{ 'assets/dist/images/[Desktop] POSN.png'|theme }}" class="mx-auto" style="padding: 100px 30px 10px 30px;" alt="About Us Image" data-sal="slide-up" data-sal-delay="400" data-sal-duration="500">
         </div>
     </div>
-</section>";s:5:"mtime";i:1588093977;s:6:"markup";s:3187:"<section id="about-restaurant" class="about-us">
+</section>";s:5:"mtime";i:1588172221;s:6:"markup";s:3187:"<section id="about-restaurant" class="about-us">
     <div class="container section mx-auto">
         <div class="about-us__content">
             <ul class="mt-10 md:ml-8">

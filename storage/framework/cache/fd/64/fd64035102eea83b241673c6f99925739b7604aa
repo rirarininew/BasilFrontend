@@ -1,4 +1,4 @@
-1588099790a:1:{s:20:"solusiusaha-cafe.htm";a:6:{s:8:"fileName";s:20:"solusiusaha-cafe.htm";s:7:"content";s:502:"==
+1588250531a:1:{s:20:"solusiusaha-cafe.htm";a:6:{s:8:"fileName";s:20:"solusiusaha-cafe.htm";s:7:"content";s:502:"==
 <html lang="en">
     <head>
         {% partial 'meta' %}

@@ -48,50 +48,49 @@ class __TwigTemplate_5c4fbc036553ca84136301558fab791971d7ac57c89d997c07652979b15
                     <a href=\"http://localhost/BasilFrontend/restaurant\" target=\"_blank\">
                     <img src=\"";
         // line 7
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/restokecill.png");
-        echo "\" class=\"service__image\" alt=\"Service Item\">
-                    
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/fork.svg");
+        echo "\" class=\"service__image\" alt=\"Service Item\" style=\"width:100px;height:100px;opacity:0.6\">
                     <h3 class=\"service__title\">Restaurant</h3>
                     </a>
                     <p class=\"item__text\" style=\"color:#707e7e\">Ciptakan resep menu baru dengan mengetahui demografi pembelian konsumen Restoran Anda.</p>
                 </div>
                 <div class=\"service ";
-        // line 13
+        // line 12
         echo twig_escape_filter($this->env, ($context["position"] ?? null), "html", null, true);
         echo "\" style=\"padding: 0px 150px 0px 60px;\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\">
                     <a href=\"http://localhost/BasilFrontend/retail\" target=\"_blank\">
                     <img src=\"";
-        // line 15
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/retailkecill.png");
-        echo "\" class=\"service__image\" alt=\"Service Item\">
+        // line 14
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/shop.svg");
+        echo "\" class=\"service__image\" alt=\"Service Item\" style=\"width:100px;height:100px;opacity:0.5\">
                     
                     <h3 class=\"service__title\">Retail</h3>
                     </a>
                     <p class=\"item__text\" style=\"color:#707e7e\">Meningkatkan Pelayanan dan Penjualan dengan sistem pembayaran otomatis Retail Anda.</p>
                 </div>
                 <div class=\"service ";
-        // line 21
+        // line 20
         echo twig_escape_filter($this->env, ($context["position"] ?? null), "html", null, true);
         echo "\" style=\"padding: 0px 60px 0px 150px;\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\">
                     <a href=\"http://localhost/BasilFrontend/cafe\" target=\"_blank\">
                     <img src=\"";
-        // line 23
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/cafekecill.png");
-        echo "\" class=\"service__image\" alt=\"Service Item\">
+        // line 22
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/coffee-cup.svg");
+        echo "\" class=\"service__image\" alt=\"Service Item\" style=\"width:100px;height:100px;opacity:0.6\">
                     
                     <h3 class=\"service__title\">Cafe</h3>
                     </a>
                     <p class=\"item__text\" style=\"color:#707e7e\">Tingkatkan Omset dengan Program Loyalti, menarik perhatian pelanggan untuk repeat order.</p>
                 </div>
                  <div class=\"service ";
-        // line 29
+        // line 28
         echo twig_escape_filter($this->env, ($context["position"] ?? null), "html", null, true);
         echo "\" style=\"padding: 0px 150px 0px 60px;\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\">
                     <a href=\"http://localhost/BasilFrontend/bakery\" target=\"_blank\">
                     <img src=\"";
-        // line 31
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/bakerykecill.png");
-        echo "\" class=\"service__image\" alt=\"Service Item\">
+        // line 30
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/chef.svg");
+        echo "\" class=\"service__image\" alt=\"Service Item\"  style=\"width:100px;height:100px;opacity:0.6\">
                     
                     <h3 class=\"service__title\">Bakery</h3>
                     </a>
@@ -115,7 +114,7 @@ class __TwigTemplate_5c4fbc036553ca84136301558fab791971d7ac57c89d997c07652979b15
 
     public function getDebugInfo()
     {
-        return array (  93 => 31,  88 => 29,  79 => 23,  74 => 21,  65 => 15,  60 => 13,  51 => 7,  46 => 5,  41 => 3,  37 => 1,);
+        return array (  92 => 30,  87 => 28,  78 => 22,  73 => 20,  64 => 14,  59 => 12,  51 => 7,  46 => 5,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -126,15 +125,14 @@ class __TwigTemplate_5c4fbc036553ca84136301558fab791971d7ac57c89d997c07652979b15
         <div class=\"services__items\">
                 <div class=\"service {{ position }}\" style=\"padding: 0px 60px 0px 150px;\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\">
                     <a href=\"http://localhost/BasilFrontend/restaurant\" target=\"_blank\">
-                    <img src=\"{{ 'assets/dist/images/restokecill.png'|theme }}\" class=\"service__image\" alt=\"Service Item\">
-                    
+                    <img src=\"{{ 'assets/dist/images/fork.svg'|theme }}\" class=\"service__image\" alt=\"Service Item\" style=\"width:100px;height:100px;opacity:0.6\">
                     <h3 class=\"service__title\">Restaurant</h3>
                     </a>
                     <p class=\"item__text\" style=\"color:#707e7e\">Ciptakan resep menu baru dengan mengetahui demografi pembelian konsumen Restoran Anda.</p>
                 </div>
                 <div class=\"service {{ position }}\" style=\"padding: 0px 150px 0px 60px;\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\">
                     <a href=\"http://localhost/BasilFrontend/retail\" target=\"_blank\">
-                    <img src=\"{{ 'assets/dist/images/retailkecill.png'|theme }}\" class=\"service__image\" alt=\"Service Item\">
+                    <img src=\"{{ 'assets/dist/images/shop.svg'|theme }}\" class=\"service__image\" alt=\"Service Item\" style=\"width:100px;height:100px;opacity:0.5\">
                     
                     <h3 class=\"service__title\">Retail</h3>
                     </a>
@@ -142,7 +140,7 @@ class __TwigTemplate_5c4fbc036553ca84136301558fab791971d7ac57c89d997c07652979b15
                 </div>
                 <div class=\"service {{ position }}\" style=\"padding: 0px 60px 0px 150px;\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\">
                     <a href=\"http://localhost/BasilFrontend/cafe\" target=\"_blank\">
-                    <img src=\"{{ 'assets/dist/images/cafekecill.png'|theme }}\" class=\"service__image\" alt=\"Service Item\">
+                    <img src=\"{{ 'assets/dist/images/coffee-cup.svg'|theme }}\" class=\"service__image\" alt=\"Service Item\" style=\"width:100px;height:100px;opacity:0.6\">
                     
                     <h3 class=\"service__title\">Cafe</h3>
                     </a>
@@ -150,7 +148,7 @@ class __TwigTemplate_5c4fbc036553ca84136301558fab791971d7ac57c89d997c07652979b15
                 </div>
                  <div class=\"service {{ position }}\" style=\"padding: 0px 150px 0px 60px;\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\">
                     <a href=\"http://localhost/BasilFrontend/bakery\" target=\"_blank\">
-                    <img src=\"{{ 'assets/dist/images/bakerykecill.png'|theme }}\" class=\"service__image\" alt=\"Service Item\">
+                    <img src=\"{{ 'assets/dist/images/chef.svg'|theme }}\" class=\"service__image\" alt=\"Service Item\"  style=\"width:100px;height:100px;opacity:0.6\">
                     
                     <h3 class=\"service__title\">Bakery</h3>
                     </a>

@@ -70,25 +70,29 @@ class __TwigTemplate_655c9504cc3579ea7c72ca133a42748540700931bd85c300a260a01de95
             $context['_seq'] = twig_ensure_traversable(twig_split_filter($this->env, twig_get_attribute($this->env, $this->source, $context["plan"], "plan_features", [], "any", false, false, false, 11), ","));
             foreach ($context['_seq'] as $context["_key"] => $context["feature"]) {
                 // line 12
-                echo "                                <li>";
+                echo "                                <!-- <li class=\"item__text\" style=\"text-align:left\">";
                 echo twig_escape_filter($this->env, $context["feature"], "html", null, true);
-                echo "</li>
+                echo "</li> -->
+                                <li class=\"item__text\" style=\"text-align:left\"><span style=\"font-family: calibri\"> ";
+                // line 13
+                echo twig_escape_filter($this->env, $context["feature"], "html", null, true);
+                echo " </span></li>
                             ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['feature'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 13
+            // line 14
             echo " 
                         </ul>
                     </div>
                     <a href=\"";
-            // line 16
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["plan"], "button_url", [], "any", false, false, false, 16), "html", null, true);
+            // line 17
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["plan"], "button_url", [], "any", false, false, false, 17), "html", null, true);
             echo "\" class=\"btn ";
-            echo ((twig_get_attribute($this->env, $this->source, $context["plan"], "highlighted", [], "any", false, false, false, 16)) ? ("") : ("btn--primary"));
+            echo ((twig_get_attribute($this->env, $this->source, $context["plan"], "highlighted", [], "any", false, false, false, 17)) ? ("") : ("btn--primary"));
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["plan"], "button_text", [], "any", false, false, false, 16), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["plan"], "button_text", [], "any", false, false, false, 17), "html", null, true);
             echo "</a>
                 </div>
             ";
@@ -96,7 +100,7 @@ class __TwigTemplate_655c9504cc3579ea7c72ca133a42748540700931bd85c300a260a01de95
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['plan'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 19
+        // line 20
         echo "        </div>
     </div>
 </section>";
@@ -114,7 +118,7 @@ class __TwigTemplate_655c9504cc3579ea7c72ca133a42748540700931bd85c300a260a01de95
 
     public function getDebugInfo()
     {
-        return array (  100 => 19,  87 => 16,  82 => 13,  73 => 12,  69 => 11,  60 => 9,  56 => 8,  50 => 6,  46 => 5,  41 => 3,  37 => 1,);
+        return array (  104 => 20,  91 => 17,  86 => 14,  78 => 13,  73 => 12,  69 => 11,  60 => 9,  56 => 8,  50 => 6,  46 => 5,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -130,7 +134,8 @@ class __TwigTemplate_655c9504cc3579ea7c72ca133a42748540700931bd85c300a260a01de95
                         <p class=\"pricing__item-price\"><span>{{ plan.currency }}</span><span>{{ plan.price }}</span>/{{ plan.plan_type }}</p>
                         <ul class=\"pricing__item-features\">
                             {% for feature in plan.plan_features|split(',') %}
-                                <li>{{ feature }}</li>
+                                <!-- <li class=\"item__text\" style=\"text-align:left\">{{ feature }}</li> -->
+                                <li class=\"item__text\" style=\"text-align:left\"><span style=\"font-family: calibri\"> {{ feature }} </span></li>
                             {% endfor %} 
                         </ul>
                     </div>

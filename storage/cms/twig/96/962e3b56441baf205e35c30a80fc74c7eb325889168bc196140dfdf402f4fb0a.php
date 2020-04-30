@@ -34,9 +34,9 @@ class __TwigTemplate_47389647b437715b7f51cc453a6f0ac712144797e572b79b39c961ad7e2
     {
         $macros = $this->macros;
         // line 1
-        echo "<section id=\"restaurant\" class=\"section mx-auto bg-im\">
-     <div class=\"container mx-auto\" style=\"color:#ffff\">
-       <h2 class=\"section__titleres text-center mb-5\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" style=\"color:#ffff;margin-top:50px;font-family: calibri\">MANAGEMEN <span style=\"color:#ff8100\"> CAFE </span>SEMAKIN MUDAH</h2>
+        echo "<section id=\"cafe\" class=\"section mx-auto bg-im\">
+     <div class=\"container mx-auto\" style=\"color:#444\">
+       <h2 class=\"section__titleres text-center mb-5\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" style=\"color:#444;margin-top:50px;font-family: calibri\">MANAGEMEN <span style=\"color:#ff8100\"> CAFE </span>SEMAKIN MUDAH</h2>
        <h2 class=\"section__titleres text-center mb-5\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" style=\"font-family: calibri\">DENGAN BASIL F&B </h2><br>
        <p class=\"text-center\">
           Kemudahan proses Pembayaran <i class=\"fas fa-check\"></i><br>
@@ -72,9 +72,9 @@ class __TwigTemplate_47389647b437715b7f51cc453a6f0ac712144797e572b79b39c961ad7e2
 
     public function getSourceContext()
     {
-        return new Source("<section id=\"restaurant\" class=\"section mx-auto bg-im\">
-     <div class=\"container mx-auto\" style=\"color:#ffff\">
-       <h2 class=\"section__titleres text-center mb-5\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" style=\"color:#ffff;margin-top:50px;font-family: calibri\">MANAGEMEN <span style=\"color:#ff8100\"> CAFE </span>SEMAKIN MUDAH</h2>
+        return new Source("<section id=\"cafe\" class=\"section mx-auto bg-im\">
+     <div class=\"container mx-auto\" style=\"color:#444\">
+       <h2 class=\"section__titleres text-center mb-5\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" style=\"color:#444;margin-top:50px;font-family: calibri\">MANAGEMEN <span style=\"color:#ff8100\"> CAFE </span>SEMAKIN MUDAH</h2>
        <h2 class=\"section__titleres text-center mb-5\" data-sal=\"fade\" data-sal-easing=\"ease-in-cubic\" style=\"font-family: calibri\">DENGAN BASIL F&B </h2><br>
        <p class=\"text-center\">
           Kemudahan proses Pembayaran <i class=\"fas fa-check\"></i><br>
